@@ -1,16 +1,15 @@
-import React from "react";
-import Header from "./base/Header";
-import "./BestSellerTab.css";
+import React from 'react';
+import Header from './base/Header';
+import './BestSellerTab.css';
 
-function BestSellerTab() {
+
+function BestSellerTab(){
     return (
-        <div className="BestSeller">
-          <>
+        <div className="BestSellerTab">
+        <>
             <Header />
-          </>
-          <p>this is a test</p>
+        </>
         </div>
-      );
+    );
     }
-
 export default BestSellerTab;

@@ -5,6 +5,8 @@ import Home from './Home';
 import Ages from './Ages';
 import BestSellerTab from './BestSellerTab';
 
+
+
 function App() {
   return (
 
@@ -14,7 +16,7 @@ function App() {
       <Route path= "/" element = {<Home/>}/>
       <Route path= "/home" element = {<Home/>}/>
       <Route path= '/ages' element = {<Ages/>}/>
-      <Route path = '/bestsellers' element = {<BestSellerTab/>}/>
+      <Route path = '/bestsellertab' element = {<BestSellerTab/>}/>
     </Routes>
   </Router>
     </div>

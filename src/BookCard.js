@@ -1,13 +1,11 @@
 import React from 'react';
+
 import './BookCardBestSellers.css';
 
-function BookCardBestSellers(){
+function BookCardBestSellers(props){
     return(
-        <div className ="BookCardBestSellers">
-
-        </div>
-
-    )
+    <div className="BookCardBestSellers">
+    </div>
+);
 }
-
 export default BookCardBestSellers;
