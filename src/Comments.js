@@ -59,7 +59,6 @@ function Comments({ item, setContent, content }) {
         Submit
       </button>
       <div>
-      <div><CommentPage key = {item.id} content = {content} item = {item} /></div>
       </div> 
     </div>
   );
